@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <style>
+      .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .notification {
+        border-radius: 30px;
+        background-color: blue;
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+      }
+      .gflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+        align-items: center;
+
+      }
+      .fflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+        background-color: blueviolet;
+        align-items: center;
+        
+      }
+
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: aqua">div1</div>
+      <div style="background-color: coral">div2</div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: aqua; width: 100px">div1</div>
+      <div style="background-color: coral; flex: 1">flex1</div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: aqua; width: 100px">div1</div>
+      <div style="background-color: coral; flex: 1">flex1</div>
+      <div style="background-color: aqua; flex: 2">flex2</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: aqua; width: 100px">div1</div>
+      <div style="background-color: coral; width: 100px">flex1</div>
+      <div style="background-color: aqua; width: 100px">flex2</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-style: solid;
+        border-color: gray;
+      "
+    >
+      <div style="background-color: aqua; width: 100px">div1</div>
+      <div style="background-color: coral; width: 100px">flex1</div>
+      <div style="background-color: aqua; width: 100px">flex2</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: stretch;
+      "
+    >
+      <div style="background-color: aqua; width: 100px">div1</div>
+      <div style="background-color: coral; width: 100px">flex1</div>
+      <div style="background-color: aqua; width: 100px">flex2</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; flex-direction: row">
+      <div style="background-color: crimson; width: 200px">200px</div>
+      <div style="background-color: darkcyan; width: 75px">75px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; flex: 1">item2</div>
+      <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; width: 50px">item2</div>
+      <div style="background-color: lightblue; width: 50px">item3</div>
+      <div style="background-color: lightpink; width: 50px">item4</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+        border-style: solid;
+        border-color: gray;
+        height: 50px;
+      "
+    >
+      <div style="background-color: lightblue; width: 50px">item3</div>
+      <div style="background-color: lightpink; width: 50px">item4</div>
+    </div>
+
+<div style="
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+
+">
+<div style="
+background-color: lightcoral; 
+width: 100px; 
+color: white; 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+">
+<p style="background-color: black; color: white;">item1</p></div>
+<div style="background-color: lightgreen; width: 200px; padding-top: 10px;
+padding-bottom: 10px;"></div>
+</div>
+
+
+<div style="
+display: flex;
+flex-direction: row;
+margin-top: 20px;">
+  <div style="background-color: aquamarine; width: 100px;"></div>
+  <div style="
+  background-color: coral; 
+  width:200px;
+  "> 
+    <p>row1</p>
+    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+  <p style="background-color: black; color: white;">row2</p>
+
+  <p style="background-color: black; color: white;">row2</p></div>
+  </div>
+</div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: gray;
+        margin-top: 20px;
+        border-width: 2px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        align-self: center;
+        justify-content: space-between;
+      "
+    >
+      <div class="flex">
+        Home
+        <div class="notification">14</div>
+      </div>
+      <div class="flex">
+        Notifications
+        <div class="notification">3</div>
+      </div>
+      <div class="flex">
+        Messages
+        <div class="notification">5</div>
+      </div>
+    </div>
+
+    <div class="gflex">
+      <div style="width: 70px;"> 
+        <img style="
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-left: 10px;
+        " 
+        src="muur.jpeg">
+      </div>
+      <div style="flex:1;  "> 
+        <p style="font-weight: bold; margin-bottom: 0;">Oliver </p>
+        <p style="color: gray; font-size: 17px; margin-bottom: 0">the Cat</p>
+        <p style="color: gray; margin-bottom: 0;">Popular</p>
+      </div>
+      <div style="width: 70px;">
+         <button style="
+          background-color: lightblue; 
+          color: white;
+          border-radius: 8px;
+          border:none;
+          width: 50px;
+          height: 20px;
+          ">Follow</button>
+        </div>
+    </div>
+
+    <div class="fflex">
+      <div> <p style="color: white; margin-left: 10px;">Home</p></div>
+      <div> <input placeholder="Search" style="border-radius: 10px;"> </input></div>
+      <div> <button style="background-color: blueviolet; color: white; border-color: antiquewhite;">Download</button></div>
+    </div>
+
+
+  </body>
+</html>

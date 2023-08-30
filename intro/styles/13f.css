@@ -1,0 +1,51 @@
+.inbox{
+  display: flex;
+  flex-direction: row;
+  Flex-shrink:0;
+}
+.profile-picture{
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.name-info{
+display: flex;
+flex-direction: row;
+}
+.user-name{
+font-weight: bold;
+font-family: arial;
+margin-right: 5px;
+}
+.mail{
+  color: gray;
+  font-family: arial;
+}
+.discription{
+  margin-top: 0;
+  font-family: arial;
+}
+.youtube-link{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: rgb(211, 211, 211);
+  border-radius: 20px;
+  border-width: 2px;
+  overflow: hidden;
+}
+.image{
+  background-color: rgb(217, 209, 209);
+  width: 100px;
+
+}
+.yt-info{
+  flex-grow: 1; 
+  padding: 10px;
+  
+}

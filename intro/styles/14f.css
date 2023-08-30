@@ -1,0 +1,43 @@
+body{
+  height: 3000px;
+  font-family: arial;
+}
+.left-section{
+  background-color: rgb(34, 34, 34);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  padding: 20px;
+}
+.image{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: none;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.middle-section{
+  background-color: rgb(55, 53, 53);
+  position: fixed;
+  top:0;
+  left: 100px;
+  bottom:0;
+  width:120px;
+  padding: 20px;
+}
+.info-header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info{
+color: lightgray;
+font-weight: bold;
+}
+.type{
+  color: lightgray;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,80 @@
+.square{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.circle{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.card{
+  background-color: darkgray;
+display: block;
+border-width: 1px;
+width: 300px;
+border-style: solid;
+padding-left: 10px;
+padding-bottom: 20px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.title{
+  font-family: Arial;
+}
+.suggest{
+ 
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  margin-left: 15px;
+  display: inline-block;
+}
+.profile{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.name{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.mutual{
+  color:rgb(100, 100, 100);
+  margin-left: 8px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  display: inline-block;
+}
+.add-button{
+background-color: rgb(24, 119, 242);
+border:none;
+color:white;
+border-radius: 3px;
+font-size: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 8px;
+margin-bottom: 10px;
+}
+.mutual-friends-row{
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.mutual-friend-picture{
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+}

@@ -1,0 +1,125 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0,15s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+.subscribe-button:active {
+  opacity: 0,5;
+  box-shadow: none;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.join-button {
+  background-color: white;
+  color: rgb(10, 71, 174);
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 1s,
+  color 1s;
+}
+.join-button:hover {
+  background-color: rgb(10, 71, 174);
+  color:white;
+}
+.join-button:active {
+  opacity: 0,8;
+}
+.tweet-button {
+  background-color: rgb(40, 91, 221);
+  color: white;
+  font: optional;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: box-shadow 0,1s;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.Add-to-Cart {
+  background-color: rgba(233, 200, 34, 0.97);
+  border: none;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 1s;
+}
+.Add-to-Cart:hover{
+  background-color: rgb(190, 150, 4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Add-to-Cart:active{
+  opacity: 0.5;
+  border-collapse: separate;
+}
+.buy-now {
+  background-color: rgb(206, 144, 20);
+  border: none;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: 1s;
+}
+.buy-now:hover {
+  background-color: rgb(213, 96, 17);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buy-now:active {
+  opacity: 0.5;
+}
+
+
+.amazon{
+  color:rgb(0, 133, 133);
+}
+.amazon:hover {
+ color:red;
+}
+.nike{
+  font-weight: bold;
+  font-size: 20px;
+}
+.stock{
+  font-weight: bold;
+  color:rgb(0, 118, 0);
+}
